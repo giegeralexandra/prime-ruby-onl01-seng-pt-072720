@@ -4,12 +4,14 @@ def prime?(integer)
       return false 
     elsif integer == 2 
       return true 
-    elsif 
+    elsif num > 2 
       while n < integer  
           if integer % n == 0 
             return false
           n += 1 
-    
+        end
       end
+    else 
+      return true 
   end
 end 
