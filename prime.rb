@@ -4,9 +4,9 @@ def prime?(integer)
       return false 
   elsif integer % [2..integer-1] == 0 
       return false
-    else 
+  else 
       return true 
     end
-  end
+  end  
      
   
