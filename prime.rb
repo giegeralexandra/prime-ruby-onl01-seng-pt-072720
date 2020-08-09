@@ -2,6 +2,9 @@ def prime?(integer)
   n = 2 
   if integer <= 1 
       return false 
+  else 
+    if integer % []
+      
     elsif integer == 2 
       return true 
     elsif integer > 2 
