@@ -1,14 +1,17 @@
 def prime?(integer)
   n = 2 
-  while n < integer  
-      if integer <= 1 
-        return false 
-        elsif 
-          integer % n == 0 
-          return false
+  if integer <= 1 
+      return false 
+    elsif integer == 2 
+      return true 
+    else
+      while n < integer  
+          if integer % n == 0 
+            return false
           n += 1 
-        else 
-          return true 
-        end
+          else 
+            return true 
+           end
+      end
   end
 end 
