@@ -3,7 +3,7 @@ def prime?(integer)
   if integer <= 1 
     return false 
   else
-     while n < 7  
+     while n < integer  
         if integer % n == 0 
           return false
         n += 1 
