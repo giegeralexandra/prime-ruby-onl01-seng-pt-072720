@@ -2,7 +2,8 @@ def prime?(integer)
   n = 2 
   if integer <= 1 
       return false 
-  else 
+  if integer.odd?
+    array[2..-1]
     if integer % []
       
     elsif integer == 2 
