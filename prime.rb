@@ -2,7 +2,7 @@ def prime?(integer)
   n = 2 
   if integer <= 1 
     return false 
-    elsif
+    else
        while n < integer  
           if integer % n == 0 
             return false
